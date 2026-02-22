@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { format, parseISO } from 'date-fns';
+import { EnxLogo } from "./assets/enx-logo.svg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -54,7 +55,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
-                <TrendingUp className="h-5 w-5 text-white" />
+                <img src={EnxLogo} alt="enx logo" className="h-5 w-5" />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-white">enx-blue</h1>
