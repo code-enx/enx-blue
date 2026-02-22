@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { format, parseISO } from 'date-fns';
-import { EnxLogo } from "./assets/enx-logo.svg";
+import EnxLogo from "./assets/enx-logo.svg";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -10,7 +10,7 @@ import { HabitList } from '@/components/HabitList';
 import { PerformanceCharts } from '@/components/PerformanceCharts';
 import { DateSelector } from '@/components/DateSelector';
 import { useHabitStorage } from '@/hooks/useHabitStorage';
-import { CalendarDays, BarChart3, ListTodo, TrendingUp } from 'lucide-react';
+import { CalendarDays, BarChart3, ListTodo } from 'lucide-react';
 import './App.css';
 
 function App() {
